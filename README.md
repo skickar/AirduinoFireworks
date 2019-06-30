@@ -16,6 +16,8 @@ To follow this guide, you will need the following:
 
 ### Steps:
 
+![alt text](https://i.imgur.com/pJEWhYM.jpg "Testing Circuit")
+
 1. Connect the ESP8266 and the relay. If you don't have a relay shield that fits on the D1 mini, connect pin "D1" of the esp8266 to pin "D1" on the relay.
 2. Open Arduino IDE and flash the AirduinoFireworks.ino file to the esp8266.
 3. Power the esp8266 and look for the "Fudruckers" Wi-Fi network. Connect with password: 00000000
@@ -55,6 +57,8 @@ To mount the firework, rest the tabs of the firework between the two peaks. The 
 
 For a mortar tube design, you need a cardboard mortar tube, two 1/4 inch bolts, two 1/4 inch nuts, duct tape, and a drill.
 
+![alt text](https://i.imgur.com/iyoKS0F.jpg "Secure nuts as anchors for screws")
+
 + Take the tube, put two nuts opposite eachother, and tape them into place with duct tape.
 + Drill a hole through the nuts into the tube on either side and clean out cardboard from the hole
 + Screw one bolt into the nut on either side until the bolt sticks through into the barrel
@@ -62,6 +66,8 @@ For a mortar tube design, you need a cardboard mortar tube, two 1/4 inch bolts, 
 + If you get a connection, you have the bolts in the right place and are ready to fire!
 
 ## Firing procedure
+
+![alt text](https://i.imgur.com/dWOvHew.jpg "The completed test circuit")
 
 1. Connect the battery, ESP8266 + Relay, and Nichrome wire. Test fire the relay on the bare Nichrome.
 2. If the relay fired, test the connectivity of the round. If it is good, you are ready to load the round.
@@ -71,6 +77,11 @@ For a mortar tube design, you need a cardboard mortar tube, two 1/4 inch bolts, 
 6. Connnect your computer to the control Wi-Fi network.
 7. When you are connected, run "bash firing.sh" to launch the firework. The computer will take control of the launch.
 8. DO NOT UNLOAD A FAILED ROUND IMMEDIATELY, DISCONNECT IT AND WAIT. CHECK THE CONNECTION WITH A METER FIRST.
+
+### MAKE SURE TO SECURE THE BASE OF YOUR LAUNCHER! 
+Why?
+![alt text](https://media.giphy.com/media/iDV5nNzNJpeu7F2NtA/giphy.gif "DUCK")
+That's why.
 
 
 

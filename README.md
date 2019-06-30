@@ -4,8 +4,6 @@
 
 The goal of this project is to remotely trigger fireworks using a computer and about $30 in hardware. The 4th of july is fun, but it's safer to put some distance between you and fireworks. Plus, it's cool to let the computer do the firing. 
 
-![alt text](https://i.imgur.com/FJUNxOg.jpg "Relay setup")
-
 The esp8266 creates a Wi-Fi access point to control a relay, like a Wi-Fi light switch. This relay supplies power from the battery to heat the Nichrome wire, which is put inside the firework. Included is a script to fire the relay automatically when connected to the Wi-Fi control network. It can work with any normal firework that's safe and legal in your area.
 
 ![alt text](https://media.giphy.com/media/cgeObB27EpQH9dUrTB/giphy.gif "Outside Firing")
@@ -30,6 +28,9 @@ To follow this guide, you will need the following:
 4. In a terminal window, run the firing.sh script to test the relay. Listen for it to click on and off.
 5. Attach a wire to the NORMALLY OPEN "NO" terminal of the relay and attach an alligator clip to the other side.
 6. Attach a wire to the middle COMMON terminal of the relay and attach an alligator clip to the other side. 
+
+![alt text](https://i.imgur.com/FJUNxOg.jpg "Relay setup")
+
 7. Cut a small piece of Nichrome wire, connect one side to the alligator clip attached to the "NO terminal of the relay.
 8. Attach the other side of the Nichrome wire to the NEGATIVE terminal of the battery via an alligator clip.
 9. Attach the clip connected to the middle COMMON terminal to the POSITIVE side of the battery.

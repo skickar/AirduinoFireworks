@@ -2,18 +2,23 @@
 
 ## Programming an ESP8266 to control fireworks over Wi-Fi in Arduino
 
-The goal of this project is to remotely trigger fireworks using a computer and about $30 in hardware. The esp8266 creates a Wi-Fi access point to control a relay, like a Wi-Fi light switch. This relay supplies power from the battery to heat the Nichrome wire, which is put inside the firework. Included is a script to fire the relay automatically when connected to the Wi-Fi control network.
+The goal of this project is to remotely trigger fireworks using a computer and about $30 in hardware. The 4th of july is fun, but it's safer to put some distance between you and fireworks. Plus, it's cool to let the computer do the firing. 
+
+![alt text](https://i.imgur.com/FJUNxOg.jpg "Relay setup")
+
+The esp8266 creates a Wi-Fi access point to control a relay, like a Wi-Fi light switch. This relay supplies power from the battery to heat the Nichrome wire, which is put inside the firework. Included is a script to fire the relay automatically when connected to the Wi-Fi control network. It can work with any normal firework that's safe and legal in your area.
 
 ![alt text](https://media.giphy.com/media/cgeObB27EpQH9dUrTB/giphy.gif "Outside Firing")
 
 To follow this guide, you will need the following:
 + A roll of aluminum tape
-+ Some alligator clamps
++ At least 4 alligator clamps
 + 32 gauge nichrome wire
-+ a 9v battery
-+ a small relay
-+ an esp8266
++ A 9v battery
++ A small relay (preferably a D1 mini shield)
++ An esp8266 (preferably a D1 mini)
 + Some wire to run from the relay to the battery, and from the battery to the firework
++ Two 1/4 inch bolts with two 1/4 inch nuts
 
 ### Steps:
 

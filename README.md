@@ -4,6 +4,7 @@
 
 The goal of this project is to remotely trigger fireworks using a computer and about $30 in hardware. The esp8266 creates a Wi-Fi access point to control a relay, like a Wi-Fi light switch. This relay supplies power from the battery to heat the Nichrome wire, which is put inside the firework. Included is a script to fire the relay automatically when connected to the Wi-Fi control network.
 
+![alt text](https://media.giphy.com/media/cgeObB27EpQH9dUrTB/giphy.gif "Outside Firing")
 
 To follow this guide, you will need the following:
 + A roll of aluminum tape
@@ -80,7 +81,9 @@ For a mortar tube design, you need a cardboard mortar tube, two 1/4 inch bolts, 
 
 ### MAKE SURE TO SECURE THE BASE OF YOUR LAUNCHER! 
 Why?
+
 ![alt text](https://media.giphy.com/media/iDV5nNzNJpeu7F2NtA/giphy.gif "DUCK")
+
 That's why.
 
 
